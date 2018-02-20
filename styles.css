@@ -1,0 +1,378 @@
+/* Base CSS */
+.alignleft{
+    float: left;
+    margin-right: 15px;
+}
+.alignright{
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus{ outline: 0 solid;}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.fix{overflow: hidden;}
+
+h1, h2, h3, h4, h5, h6{ 
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    
+}
+
+a{
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    color: #333;
+}
+
+a:hover{text-decoration: none;}
+
+.section-padding{padding: 70px 0}
+
+/**/
+
+.header-area{position: relative;}
+.header-area, .header-area .slider-area, .header-area .carousel, .header-area .carousel-inner, .header-area .item, .header-area .slider-bg{
+    height: 100%;
+}
+
+.slider-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    
+}
+
+.slider1{background-image: url(img/clinic/bed.jpg);}
+.slider2{background-image: url(img/clinic/examination-room.jpg);}
+.slider3{background-image: url(img/clinic/fridge-and-immunizationstuff.jpg);}
+
+.navbar-default{
+   background-color: transparent;
+   border-color: transparent;
+}
+
+.navbar-default .navbar-brand{
+    color: #eee;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+    background-color: transparent;
+    color: #fff;
+}
+
+.navbar-right{
+    margin-top: 30px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: #fff;
+}
+
+.down{
+    border: 1px solid #fff;
+}
+
+.carousel-caption{
+    bottom: 20px;
+    color: #fff;
+    left: 8%;
+    position: absolute;
+    right: 15%;
+    text-align: left;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.slide-text h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 50px;
+}
+.slide-text p{
+    color: #eee;
+    font-size: 20px;
+}
+.slide-text a{
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.slide-text a:hover{
+    background: #FAB044 none repeat scroll 0 0;
+    border-color: #FAB044;   
+}
+
+.slide-text{
+    padding-bottom: 30%;
+}
+
+.single-about h3{
+    text-transform: uppercase;
+    padding-top: 5px;
+    font-size: 18px;
+     color: #1a344d;
+}
+
+.single-about p{
+    color: #9b9b9b;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.single-about a{
+    border: 1px solid #000;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+
+.free-area{
+    background-image: url(img/clinic/doctor-563428_1920.jpg);
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center center;
+    color: #fff;
+}
+
+.free-area:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+
+.single-free h1{
+    text-transform: uppercase;
+    color: #ddd;
+    font-size: 40px;
+}
+
+.single-free p {
+   color: #ddd;
+    font-size: 21px;
+}
+
+.single-free a{
+    border: 1px solid #fff;
+    color: #ddd;
+    display: inline-block;
+    margin: 40px 5px 0;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.single-free a:hover{
+    background: #27abde none repeat scroll 0 0;
+    border-color: #27abde;
+}
+
+#map{
+    width: 100%;
+    height: 400px;
+}
+
+.community-area{
+    background-image: url(img/clinic/pills-2607338_1920.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.community-area::before{
+    background: rgba(44, 129, 106, 0.5) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.single-temp h3{
+    margin-bottom: 30px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.single-temp p{
+    color: #ddd;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.sigle-temp a{
+    border: 1px solid #fff;
+    color: #ddd;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 18px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.exp{
+    margin: 0;
+    padding: 0;
+}
+
+.section-header h2{
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.follow-area{
+    background: #f2f2f3 none repeat scroll 0 0;
+    padding: 30px 0;
+}
+
+.follow-icons i{
+    background: #ddd none repeat scroll 0 0;
+    font-size: 25px;
+    height: 60px;
+    margin: 0 8px;
+    padding: 20px;
+    width: 60px;
+}
+
+.contact-area{
+    background-image: url(img/clinic/smartphone-1894723_1920.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff;
+}
+
+.contact-area:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.form-text input[type="text"]{
+    border-radius: 0;
+    margin-bottom: 10px;
+    padding: 9px;
+}
+
+.form-text textarea{
+    border-radius: 0;
+    margin-bottom: 25px;
+}
+
+#tem-btn{
+    background: #fab044 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0;
+    color: #fff;
+    float: right;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.footer-top-area{
+    background: #2f2f2f;
+    color: #eee;
+    padding: 20px 0;
+}
+
+.footer-bottom-area{
+    padding: 10px 0;
+    background: #373737;
+    color: #eee;
+}
+
+.fot-mid-1 h4{
+    text-transform: uppercase;
+}
+
+.fot-mid-1 p{
+    font-size: 18px;
+}
+
+.fot-mid-2 h3{
+    font-size: 18px;
+}
+
+.fot-right h3{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.fot-right a {
+    color: #eee;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 42px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

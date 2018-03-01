@@ -62,12 +62,19 @@ a:hover{text-decoration: none;}
     background-repeat: no-repeat;
     top: 0;
     left: 0;
-    
 }
 
 .slider1{background-image: url(img/clinic/bed.jpg);}
 .slider2{background-image: url(img/clinic/examination-room.jpg);}
 .slider3{background-image: url(img/clinic/fridge-and-immunizationstuff.jpg);}
+
+ul {
+    list-style-type: none;
+}
+
+ul.leaf {
+    list-style-image: url('img/clinic/leaf.png');
+}
 
 .navbar-default{
    background-color: transparent;

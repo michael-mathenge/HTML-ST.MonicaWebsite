@@ -77,6 +77,10 @@ ul.leaf {
     list-style-image: url('img/clinic/leaf.png');
 }
 
+ul.blue-icon{
+
+}
+
 .navbar-default{
    background-color: transparent;
    border-color: transparent;
@@ -368,20 +372,3 @@ ul.leaf {
     font-size: 18px;
     line-height: 42px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

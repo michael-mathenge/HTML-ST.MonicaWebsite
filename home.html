@@ -52,7 +52,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="slide-text">
-                                        <h2>ST. Monica</h2>
+                                        <h2>ST. Monica Community Dispensary</h2>
                                         <p>This is a health dispensary opened in 2017 at Oloolotikosh to service an abandoned area of kiserian town with quality healthcare where individuls had to travel close to 40KM to the nearest health facility.</p>
                                         <!-- <a href="#">Free download</a> -->
                                         <!--<a href="#">Learn More</a> -->
@@ -67,7 +67,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="slide-text">
-                                        <h2>ST. Monica</h2>
+                                        <h2>ST. Monica Community Dispensary</h2>
                                         <p>This is a health dispensary opened in 2017 at Oloolotikosh to service an abandoned area of kiserian town with quality healthcare where individuls had to travel close to 40KM to the nearest health facility.</p>
                                         <!-- <a href="#">Free download</a> -->
                                         <!--<a href="#">Learn More</a> -->
@@ -83,7 +83,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="slide-text">
-                                        <h2>ST. Monica</h2>
+                                        <h2>ST. Monica Community Dispensary</h2>
                                         <p>This is a health dispensary opened in 2017 at Oloolotikosh to service an abandoned area of kiserian town with quality healthcare where individuls had to travel close to 40KM to the nearest health facility.</p>
                                         <!-- <a href="#">Free download</a> -->
                                         <!--<a href="#">Learn More</a> -->
@@ -161,7 +161,7 @@
                     <div class="single-temp">
                         <h3>High demand healthcare needs</h3>
                         <ul class="leaf">
-                            <li>Chronic desease detection e.g hypertension and diabetes through blood sugar and blood pressure monitoring.</li>
+                            <li>Chronic disease detection e.g hypertension and diabetes through blood sugar and blood pressure monitoring.</li>
                             <li>Health screening, e.g. TB and HIV.</li>
                             <li>Health education.</li>
                             <li>Community based health workers training.</li>
@@ -313,48 +313,11 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="bootstrap.min.js"></script>
-
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/gmaps.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    <script>
-        function initMap() {
-            var location = {
-                lat: -1.506534,
-                lng: 36.773575
-            };
-            var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 4,
-                center: location
-            });
-            var marker = new google.maps.Marker({
-                position: location,
-                map: map
-            });
-        }
-    </script>
-
-    <script type="text/javascript">
-        var map;
-        $(document).ready(function() {
-            map = new GMaps({
-                el: '#map',
-                lat: -1.506534,
-                lng: 36.773575
-            });
-
-            map.addMarker({
-                lat: -1.506534,
-                lng: 36.773575,
-                title: 'Marker with information',
-                infoWindow: {
-                    content: '<p>HTML Content</p>'
-                }
-            });
-        });
-    </script>
-
+    <script type="text/javascript" src="js/initmap.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmThNW-EMRvH-k1NKje5B0QzpMaoyr72I&callback=initMap" type="text/javascript"></script>
 </body>
-
 </html>
